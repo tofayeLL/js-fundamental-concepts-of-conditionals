@@ -17,7 +17,7 @@ else{
 var height = 1.5;
 var bmi = weight / (height ** 2); */ /* Math.pow(height, 2); we can use this for height square */
  
-var bmi = 30;
+/* var bmi = 30;
 console.log('your bmi is =',bmi);
 
 if(bmi){
@@ -33,6 +33,29 @@ if(bmi){
     else{
         console.log('you are obese or fatty');
     }
-}
+} */
 
+
+
+
+
+/* -------practice task Three------- */
+
+var studentScore = 70;
+console.log('your score is =',studentScore);
+if(studentScore >= 90 && studentScore <= 100){
+    console.log('your grade is = A')
+}
+else if(studentScore >= 80 && studentScore <= 89){
+    console.log('your grade is = B');
+}
+else if(studentScore >= 70 && studentScore <= 79){
+    console.log('your grade is = C');
+}
+else if(studentScore >= 60 && studentScore <= 69){
+    console.log('your grade is = D');
+}
+else{
+    console.log('your garde is = F');
+}
 
