@@ -64,7 +64,7 @@ else{
 
 /* -------practice task four------- */
 
-const myScore = 81;
+/* const myScore = 81;
 const friendScore = 70;
 console.log('my score is =',myScore);
 
@@ -89,4 +89,25 @@ if(myScore > 80){
 else{
     console.log('i will go to home and sleep and act sad');
 }
+ */
 
+
+
+
+/* -------practice task five------- */
+
+var num1 = 30;
+var num2 = 15;
+var sum = num1 + num2;
+var result;
+
+/* if(num1 > num2){
+    result = num1 * 2;
+    console.log(result);
+}
+else{
+    console.log(sum);
+} */
+
+result = (num1 > num2) ? result = num1 * 2 : result = num1 + num2 ;
+console.log(result);
