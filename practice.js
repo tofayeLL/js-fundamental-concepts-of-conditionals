@@ -96,10 +96,10 @@ else{
 
 /* -------practice task five------- */
 
-var num1 = 30;
+/* var num1 = 30;
 var num2 = 15;
 var sum = num1 + num2;
-var result;
+var result; */
 
 /* if(num1 > num2){
     result = num1 * 2;
@@ -109,5 +109,39 @@ else{
     console.log(sum);
 } */
 
-result = (num1 > num2) ? result = num1 * 2 : result = num1 + num2 ;
-console.log(result);
+
+
+// same problem solve by using ternary
+/* result = (num1 > num2) ? result = num1 * 2 : result = num1 + num2 ;
+console.log(result); */
+
+
+
+
+/* -------practice task six------- */
+
+var childrenAge = 11;
+var student = true;
+var seniorAge = 60;
+var regularTicketPrice = 800;
+if(childrenAge < 10 ){
+    console.log('The ticket will be free for you');
+
+}
+else if(student == true){
+    //50% discount
+    var discount = regularTicketPrice * 50 / 100;
+    console.log('the ticket price will be:',discount);
+}
+else if(seniorAge >= 60 ){
+    //15% discount
+    var discountPrice = regularTicketPrice * 15 / 100;
+    console.log('The ticket price will be:',discountPrice);
+}
+else{
+    console.log('The ticket price will be:',regularTicketPrice);
+}
+
+
+
+
