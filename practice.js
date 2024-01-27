@@ -41,7 +41,7 @@ if(bmi){
 
 /* -------practice task Three------- */
 
-var studentScore = 70;
+/* var studentScore = 70;
 console.log('your score is =',studentScore);
 if(studentScore >= 90 && studentScore <= 100){
     console.log('your grade is = A')
@@ -57,5 +57,36 @@ else if(studentScore >= 60 && studentScore <= 69){
 }
 else{
     console.log('your garde is = F');
+} */
+
+
+
+
+/* -------practice task four------- */
+
+const myScore = 81;
+const friendScore = 70;
+console.log('my score is =',myScore);
+
+if(myScore > 80){
+    console.log('your friend score:',friendScore);
+    if(friendScore > 80){
+        console.log('Thats why we will go fo a lunch');
+    }
+    else if(friendScore >= 60 && friendScore < 80){
+        console.log('better luck next time my friend');
+    }
+    else if(friendScore < 60 && friendScore >= 40){
+        console.log('I will unseen your message');
+    }
+    else if(friendScore < 40){
+        console.log('i will block you');
+    }
+    else{
+        console.log('nothing to do');
+    }
+}
+else{
+    console.log('i will go to home and sleep and act sad');
 }
 
